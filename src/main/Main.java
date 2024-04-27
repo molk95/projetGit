@@ -52,13 +52,5 @@ public class Main {
         Penguin p3 = new Penguin("POPO", "Willy2", 30, true, "Eaux froides", 80f);
 
 
-        //System.out.println(p1);
-        //p1.swim();
-
-
-        System.out.println("######################## ");
-
-        myZoo.displayNumberOfAquaticsByType();
-        System.out.println(p1.equals(p2));
     }
 }
