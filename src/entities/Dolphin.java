@@ -4,24 +4,24 @@ public class Dolphin extends Aquatic{
 package entities;
 
     public class Dolphin extends Aquatic{
-        //att
+        //var
         private float swimmingSpeed;
 
-        //constructeur
+        //Constructeur
         public Dolphin(){}
         public Dolphin(String fam, String na, int ag, boolean mammal, String habitat, float swimmingSpeed){
             super(fam, na, ag, mammal, habitat);
             this.swimmingSpeed = swimmingSpeed;
         }
 
-        //methods
+        //methodes
 
         @Override
         public void swim() {
             System.out.println("This dolphin is swimming.");
         }
 
-        //diplay
+        //toSring
         @Override
         public String toString() {
             return "Dolphin = [family : "+ this.family + ",\n" +
