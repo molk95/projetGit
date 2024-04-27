@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Zoo {
 
-    //Attributs
+    //var
     private String name, city;
     private final int NBR_CAGES = 3;
     private Animal[] animals;
@@ -17,7 +17,7 @@ public class Zoo {
         this.animals = new Animal[NBR_CAGES];
     }
 
-    //Methods
+    //Methodes
     public boolean addAnimal(Animal animal){
         if(searchAnimal(animal) == -1 && !isZooFull()){
             for (int i = 0; i < animals.length; i++) {
@@ -34,7 +34,7 @@ public class Zoo {
         return false;
     }
 
-    //Remove
+    //remove
     public boolean removeAnimal(Animal a){
         int index = searchAnimal(a);
         if(index > -1){
@@ -83,7 +83,7 @@ public class Zoo {
         return false;
     }
 
-    //Getters and setters
+    //getters and setters
     public String getName() {
         return name;
     }
@@ -109,7 +109,7 @@ public class Zoo {
         this.city = city;
     }
 
-    //Display
+    //ToSring
     @Override
     public String toString() {
         return "Zoo{" +
