@@ -50,6 +50,15 @@ public class Main {
         Penguin p1 = new Penguin("POPO", "Willy", 30, true, "Eaux froides", 100f);
         Penguin p2 = new Penguin("POPO", "Willy1", 30, true, "Eaux froides", 200f);
         Penguin p3 = new Penguin("POPO", "Willy2", 30, true, "Eaux froides", 80f);
+        Penguin p4 = new Penguin("POPO", "Willy2", 10, true, "Eaux froides", 10f);
+        Penguin p7 = new Penguin("POPO", "Willy2", 30, true, "Eaux froides", 80f);
+        Penguin p5 = new Penguin("POPO", "Willy2", 30, true, "Eaux froides", 80f);
+        Penguin p6 = new Penguin("POPO", "Willy2", 30, true, "Eaux froides", 80f);
+        Penguin p8 = new Penguin("POPO", "Willy2", 30, true, "Eaux froides", 80f);
+        Penguin p9 = new Penguin("POPO", "Willy2", 30, true, "Eaux froides", 80f);
+        Penguin p10 = new Penguin("POPO", "Willy2", 30, true, "Eaux froides", 80f);
+
+
 
 
         //System.out.println(p1);

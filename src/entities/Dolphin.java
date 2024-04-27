@@ -27,7 +27,6 @@ package entities;
             return "Dolphin = [family : "+ this.family + ",\n" +
                     "name : "+ this.name + ",\n" +
                     "age : "+ this.age + ",\n" +
-                    "mammal : "+ this.mammal + ",\n" +
                     "habitat : "+ this.habitat + ",\n" +
                     "Speed : "+ this.swimmingSpeed + "]"
                     ;
