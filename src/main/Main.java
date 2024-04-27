@@ -61,13 +61,5 @@ public class Main {
 
 
 
-        //System.out.println(p1);
-        //p1.swim();
-
-
-        System.out.println("######################## ");
-
-        myZoo.displayNumberOfAquaticsByType();
-        System.out.println(p1.equals(p2));
     }
 }
