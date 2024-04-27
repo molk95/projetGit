@@ -5,9 +5,16 @@ package entities;
 
     public class Dolphin extends Aquatic{
 
+
+        private float swimmingSpeed;
+
+       
+
+
         private float swimmingSpeed;
 
 
+      
         public Dolphin(){}
         public Dolphin(String fam, String na, int ag, boolean mammal, String habitat, float swimmingSpeed){
             super(fam, na, ag, mammal, habitat);
