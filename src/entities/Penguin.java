@@ -2,7 +2,7 @@ package entities;
 
 
     public class Penguin extends Aquatic{
-        //att
+        //attribut
         private float swimmingDepth;
 
         //constructeur
