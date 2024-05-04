@@ -1,7 +1,7 @@
 package entities;
 
-public final class Terrestrial extends Animal {
+public final class Lapin extends Animal {
     //att
     private int nbrLegs;
 }
-
+    
