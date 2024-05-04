@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Zoo {
 
-    //var
+    //variable
     private String name, city;
     private final int NBR_CAGES = 3;
     private Animal[] animals;
