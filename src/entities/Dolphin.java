@@ -7,6 +7,7 @@ package entities;
 
 
         private float swimmingSpeed;
+        private  float a ;
 
        
 
