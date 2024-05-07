@@ -1,6 +1,6 @@
 # Projet - module: Outils collaboratif Git
 
-## :point_right: Equipes:
+## :point_right: Equipe:
 
 :woman_technologist: Manel ABAKHOUCH <br/>
 :woman_technologist: Abir ELWEHDI <br/>
