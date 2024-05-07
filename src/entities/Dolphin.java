@@ -6,6 +6,7 @@ package entities;
     public class Dolphin extends Aquatic{
         //att
         private float swimmingSpeed;
+        private  float a ;
 
         //constructeur
         public Dolphin(){}
